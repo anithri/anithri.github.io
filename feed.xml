@@ -5,8 +5,8 @@
     <description>An Artit's Gallery</description>
     <link>//</link>
     <atom:link href="//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 22 Nov 2016 16:47:53 -0700</pubDate>
-    <lastBuildDate>Tue, 22 Nov 2016 16:47:53 -0700</lastBuildDate>
+    <pubDate>Wed, 23 Nov 2016 15:23:44 -0500</pubDate>
+    <lastBuildDate>Wed, 23 Nov 2016 15:23:44 -0500</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -26,7 +26,7 @@
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Wed, 22 Oct 2014 11:26:19 -0600</pubDate>
+        <pubDate>Wed, 22 Oct 2014 13:26:19 -0400</pubDate>
         <link>//jekyll/update/2014/10/22/welcome-to-jekyll.html</link>
         <guid isPermaLink="true">//jekyll/update/2014/10/22/welcome-to-jekyll.html</guid>
         

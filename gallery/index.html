@@ -79,44 +79,81 @@
 <div class="slideContainer">
   <div class="sideNav">
     <a onclick="plusDivs(-1)">&nbsp;&#10094;&nbsp;</a>
-
   </div>
 
   <div class="w3-content">
     
     <div class="mySlides w3-container" style="display: none;">
-      <img height="400" width="640" src="/art/quotes-batman.jpg" class="slideImage"/>
+      <figure class="slideImage">
+        <a href="#BatmanmadnessSlide">
+          
+          <img width="480" src="/art/quotes-batman.jpg"/>
+          
+        </a>
+        <figcaption class="center">Digital ink and pixels.</figcaption>
+      </figure>
       <h3>
-        Batman by Some Guy
+        Batman Madness
+        <small>Oct 15, 2015</small>
       </h3>
 
       <p>This is a description.  Batman is the greatest.</p>
 
     </div>
+
+    <!-- lightbox container hidden with CSS -->
+    <a href="#_" class="lightbox" id="BatmanmadnessSlide">
+      <img src="/art/quotes-batman.jpg"/>
+    </a>
     
     <div class="mySlides w3-container" style="display: none;">
-      <img height="400" width="640" src="/art/quotes-greenlantern.jpg" class="slideImage"/>
+      <figure class="slideImage">
+        <a href="#GreenlanternSlide">
+          
+          <img width="480" src="/art/quotes-greenlantern.jpg"/>
+          
+        </a>
+        <figcaption class="center"></figcaption>
+      </figure>
       <h3>
-        Green Lantern by Some Other Guy
+        Green Lantern
+        <small></small>
       </h3>
 
       <p>This is a description.  Green Lantern is pretty cool.</p>
 
     </div>
+
+    <!-- lightbox container hidden with CSS -->
+    <a href="#_" class="lightbox" id="GreenlanternSlide">
+      <img src="/art/quotes-greenlantern.jpg"/>
+    </a>
     
     <div class="mySlides w3-container" style="display: none;">
-      <img height="400" width="640" src="/art/quotes-hulk.jpg" class="slideImage"/>
+      <figure class="slideImage">
+        <a href="#IncrediblehulkSlide">
+          
+          <img width="480" src="/art/quotes-hulk.jpg"/>
+          
+        </a>
+        <figcaption class="center"></figcaption>
+      </figure>
       <h3>
-        Incredible Hulk by Yet Another Guy
+        Incredible Hulk
+        <small></small>
       </h3>
 
       <p>This is a description.  Hulk Smash!</p>
 
     </div>
+
+    <!-- lightbox container hidden with CSS -->
+    <a href="#_" class="lightbox" id="IncrediblehulkSlide">
+      <img src="/art/quotes-hulk.jpg"/>
+    </a>
     
-
-
   </div>
+
   <div class="sideNav">
     <a onclick="plusDivs(1)">&nbsp;&#10095;&nbsp;</a>
   </div>
@@ -126,6 +163,12 @@
 
 
     </main>
+    <script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+
+
     <script type="text/javascript" src="/assets/application.js"></script>
   </body>
 </html>
